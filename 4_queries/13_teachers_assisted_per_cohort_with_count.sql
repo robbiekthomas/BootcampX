@@ -6,3 +6,4 @@ JOIN cohorts ON cohorts.id = cohort_id
 WHERE cohorts.name = 'JUL02'
 GROUP BY teachers.name, cohorts.name
 ORDER BY teachers.name;
+
